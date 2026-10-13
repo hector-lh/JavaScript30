@@ -1,7 +1,8 @@
 html {
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
+  background: url('./background1.jpg') bottom center;
   background-size: cover;
+  height: 100dvh;
 }
 
 body,html {
@@ -10,9 +11,17 @@ body,html {
   font-family: sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  overflow: hidden;
+}
+
 .keys {
   display: flex;
-  min-height: 100vh;
+  flex: 1;
+  min-height: 0;
   align-items: center;
   justify-content: center;
 }
